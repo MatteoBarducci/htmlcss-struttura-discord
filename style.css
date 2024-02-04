@@ -9,18 +9,20 @@
 /*------------
     HEADER
 -------------*/
+.container{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto; 
+}
+
 header{
     background-color: #ADD8E6;
-    padding: 20px;
+    padding: 12px;
 }
 
 .header-container{
-    display: flex;
-    justify-content: center;
-    max-width: 62%;
     background-color: #DAA520;
-    box-sizing: border-box;
-    margin: auto;
 }
 
 .header-container > *{
@@ -40,3 +42,52 @@ nav{
 .login{
     width: 25%;
 }
+/*------------
+    MAIN
+-------------*/
+.hero{
+    background-color: #02008B;
+    min-height: 500px;
+    padding: 50px;
+}
+
+.hero-img{
+    width: 900px;
+    height: 400px;
+    background-color: #EE82EE;
+    border: dashed;
+    margin: auto;
+}
+
+.section{
+    background-color: white;
+    min-height: 600px;
+    padding: 50px;
+}
+
+.section-img{
+    background-color: #1E90FF;
+    width: 60%;
+    min-height: 500px;
+}
+
+.section-text{
+    background-color: #FEC0CB;
+    width: 40%;
+    min-height: 500px;
+}
+
+.container > *{
+    border: dashed;
+}
+
+.section-grey{
+    background-color: #D3D3D3;
+}
+/*------------
+    FOOTER
+-------------*/
+
+
+
+
