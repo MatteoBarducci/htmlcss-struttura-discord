@@ -1,0 +1,42 @@
+/*------------
+    RESET
+-------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------
+    HEADER
+-------------*/
+header{
+    background-color: #ADD8E6;
+    padding: 20px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    max-width: 62%;
+    background-color: #DAA520;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.header-container > *{
+    border: dashed;
+    padding: 8px;
+}
+
+.logo{
+    width: 25%;
+}
+
+nav{
+    width: 50%;
+    text-align: center;
+}
+
+.login{
+    width: 25%;
+}
